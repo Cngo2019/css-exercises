@@ -17,12 +17,37 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  width: 500px;
   background: royalblue;
+
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  border: solid 1px black;
+  width: 25%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.right-cards {
+  flex: 1;
+  display: flex;
+  flex-wrap:wrap;
+  gap: 25px;
+}
+
+.container {
+  display: flex;
+  height: 800px;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  border: 1px solid black;
 }
